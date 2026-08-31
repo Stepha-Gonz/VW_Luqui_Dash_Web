@@ -24,9 +24,6 @@ application.
 - CSS (sin frameworks)
 - Responsive Web Design
 
-
-proyecto.
-
 ---
 
 🧡 **Luqui — Financial Intelligence**
