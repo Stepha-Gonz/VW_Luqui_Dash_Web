@@ -1,0 +1,11 @@
+{
+  "name": "vw-luqui-dash-web",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Página de ventas de Luqui Finanzas (frontend estático, sin backend).",
+  "scripts": {
+    "dev": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "preview": "npm run preview --prefix frontend"
+  }
+}
