@@ -1,6 +1,5 @@
-// Enlace de checkout en Hotmart. Reemplazar cuando el producto esté publicado.
-// Todos los CTA de compra de la página deben usar esta constante.
-export const HOTMART_URL = "REEMPLAZAR_CON_ENLACE_DE_HOTMART";
+// Enlace de checkout en Hotmart. Todos los CTA de compra de la página usan esta constante.
+export const HOTMART_URL = "https://pay.hotmart.com/U107397818P";
 
 // Precios fijos por moneda, definidos manualmente (SIN conversión en tiempo real).
 // Editar aquí los valores cuando cambien las tarifas o la oferta de lanzamiento.
