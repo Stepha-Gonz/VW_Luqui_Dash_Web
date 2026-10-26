@@ -10,7 +10,11 @@ const INCLUDES = [
   "Diferentes monedas disponibles.",
   "Modo claro y oscuro.",
   "Actualizaciones del dashboard",
-  "Asistente con IA para resolver tus dudas.",
+  "Asistente con IA que te acompaña en la configuración y el registro, con base en las guías.",
+  "Kit de Inicio con tu ruta paso a paso.",
+  "Guías para configurar, registrar y conectar tus datos.",
+  "Tu propia copia de trabajo en Google Sheets.",
+  "Acceso en hasta 3 dispositivos con tu correo de compra.",
 ];
 
 export default function IncludesSection() {
@@ -39,14 +43,14 @@ export default function IncludesSection() {
               <div>
                 <span className="mark">✓</span>
                 <span style={{ color: "var(--ink-2)" }}>
-                  Video explicativo para configurar el atajo en <strong>iPhone</strong>, incluido desde el primer día.
+                  Atajo para <strong>iPhone</strong> disponible, con una guía paso a paso para usarlo.
                 </span>
               </div>
               <div>
                 <span style={{ color: "var(--gold)", fontWeight: 700 }}>◷</span>
                 <span style={{ color: "var(--muted)" }}>
-                  El video para <strong>Android</strong> llegará próximamente: no todos los equipos traen
-                  una app de atajos nativa, así que estamos preparando la mejor forma de hacerlo.
+                  Para <strong>Android</strong> estamos revisando si se puede hacer algo similar: no todos
+                  los equipos traen una app de atajos nativa.
                 </span>
               </div>
             </div>

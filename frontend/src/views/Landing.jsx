@@ -6,6 +6,7 @@ import FeaturesSection from "../components/FeaturesSection";
 import ComparisonSection from "../components/ComparisonSection";
 import ShowcaseSection from "../components/ShowcaseSection";
 import ThemeSection from "../components/ThemeSection";
+import StepsSection from "../components/StepsSection";
 import VideoSection from "../components/VideoSection";
 import ForYouSection from "../components/ForYouSection";
 import OfferSection from "../components/OfferSection";
@@ -16,9 +17,6 @@ import Footer from "../components/Footer";
 import { useScrollReveal } from "../hooks/useScrollReveal";
 import { HOTMART_URL, detectCurrency } from "../services/pricing";
 import "./Landing.css";
-
-// URL de embed del video (YouTube/Vimeo). Déjalo vacío para mostrar el placeholder.
-const VIDEO_URL = "";
 
 export default function Landing() {
   const currency = detectCurrency();
@@ -35,7 +33,8 @@ export default function Landing() {
       <ComparisonSection />
       <ShowcaseSection />
       <ThemeSection />
-      <VideoSection videoUrl={VIDEO_URL} />
+      <StepsSection />
+      <VideoSection />
       <ForYouSection />
       <OfferSection currency={currency} hotmartUrl={HOTMART_URL} />
       <IncludesSection />

@@ -50,6 +50,17 @@ Todo vive en [`frontend/src/services/pricing.js`](frontend/src/services/pricing.
   disponible se confirmarán al continuar con la compra."* — no quitar este
   disclaimer.
 
+## Video, vista previa y publicación
+
+- Archivos en `frontend/public/assets/`: `como-funciona.mp4` (16:9, copia web
+  comprimida), `como-funciona-poster.jpg` y `og-luqui.jpg` (1200×1200, vista
+  previa al compartir). `vite.config.js` detecta al compilar si existen el mp4
+  y el poster; si faltan, `VideoSection` muestra «Video próximamente».
+- Cuántos cupos de lanzamiento se muestran: `LAUNCH_SPOTS` en `pricing.js`.
+- Publicación: `luquifinance.com` es el sitio Netlify `luqui-webdashboard`
+  (conectado a `main`). Con CLI: `npm run build` y, desde `frontend/`,
+  `npx netlify-cli deploy --prod --site f364894a-a7a4-4599-afc0-3090646ebdbb --dir dist`.
+
 ## Checkout / Hotmart
 
 `HOTMART_URL` en `frontend/src/services/pricing.js` es la única variable que

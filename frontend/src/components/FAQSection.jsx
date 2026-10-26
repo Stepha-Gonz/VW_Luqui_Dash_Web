@@ -27,6 +27,22 @@ const FAQS = [
     q: "¿El precio puede variar según mi país?",
     a: "Sí. La página puede mostrar precios localizados según la moneda o país, y el precio final disponible se confirma antes de completar la compra.",
   },
+  {
+    q: "¿Dónde se guardan mis datos?",
+    a: "En tu propio Google Sheet. Luqui solo guarda tu correo y el tipo de dispositivo para darte acceso.",
+  },
+  {
+    q: "¿En cuántos dispositivos puedo usarlo?",
+    a: "Hasta en 3 dispositivos, por ejemplo celular, computador y tableta.",
+  },
+  {
+    q: "¿Hay reembolso?",
+    a: "Sí, tienes 7 días desde la compra para solicitarlo a través de Hotmart.",
+  },
+  {
+    q: "¿Luqui conecta con mi banco?",
+    a: "No. Tú registras tus movimientos y Luqui los convierte en información clara. Luqui es una herramienta de organización financiera, no ofrece asesoría financiera.",
+  },
 ];
 
 export default function FAQSection() {

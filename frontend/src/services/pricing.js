@@ -1,5 +1,8 @@
 // Enlace de checkout en Hotmart. Todos los CTA de compra de la página usan esta constante.
-export const HOTMART_URL = "https://pay.hotmart.com/U107397818P";
+export const HOTMART_URL = "https://pay.hotmart.com/S108191637H";
+
+// Cupos del precio de lanzamiento (texto bajo el precio). Cambiar aquí cuando se actualice la oferta.
+export const LAUNCH_SPOTS = 30;
 
 // Precios fijos por moneda, definidos manualmente (SIN conversión en tiempo real).
 // Editar aquí los valores cuando cambien las tarifas o la oferta de lanzamiento.

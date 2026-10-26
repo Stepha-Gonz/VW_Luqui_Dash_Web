@@ -12,7 +12,7 @@ const ITEMS = [
 
 export default function HowItWorksSection() {
   return (
-    <section id="como-funciona" className="section">
+    <section id="todo-en-un-lugar" className="section">
       <div className="section-inner">
         <div data-reveal style={{ maxWidth: 760 }}>
           <h2 className="section-title">Todo lo que pasa con tu plata, en un solo lugar.</h2>

@@ -1,4 +1,4 @@
-import { PRICES, formatPrice, discountPercent } from "../services/pricing";
+import { PRICES, LAUNCH_SPOTS, formatPrice, discountPercent } from "../services/pricing";
 
 export default function OfferSection({ currency, hotmartUrl }) {
   const p = PRICES[currency];
@@ -23,7 +23,10 @@ export default function OfferSection({ currency, hotmartUrl }) {
               <span className="price-badge">-{off}% lanzamiento</span>
             </div>
             <div className="price-launch">{formatPrice(currency, p.launch)}</div>
-            <p className="price-currency-note">Pago único · {p.name}</p>
+            <div>
+              <p className="price-currency-note">Pago único · {p.name}</p>
+              <p className="price-currency-note">Precio de lanzamiento para los primeros {LAUNCH_SPOTS} cupos.</p>
+            </div>
             <a href={hotmartUrl} target="_blank" rel="noopener noreferrer" className="btn btn-gold" style={{ display: "block", textAlign: "center", marginTop: 6 }}>
               Conocer mi oferta →
             </a>

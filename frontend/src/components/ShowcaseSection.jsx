@@ -1,6 +1,6 @@
 import dashboardLarge from "../assets/dashboard-screenshot-large.webp";
 
-const DEMO_URL = "https://luquifinanzas-demo.netlify.app/";
+const DEMO_URL = "https://demo.luquifinance.com";
 
 export default function ShowcaseSection() {
   return (
